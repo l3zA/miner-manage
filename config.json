@@ -1,1 +1,93 @@
-{ username : l3za}
+{
+	"config": {
+		"minerName": "miner"
+	},
+	"pools": [{
+			"name": "cryptopros",
+			"url": "pool.cryptopros.us"
+		},
+		{
+			"name": "bsod",
+			"url": "pool.bsod.pw"
+		},
+		{
+			"name": "phi",
+			"url": "pool1.phi-phi-pool.net"
+		},
+		{
+			"name": "friends-master",
+			"url": "pool.friends-master.net"
+		}
+	],
+	"algos": [{
+			"name": "bitcore",
+			"port": 3556,
+			"coins": [{
+				"name": "BTX",
+				"fullName": "Bitcore"
+			}]
+		},
+		{
+			"name": "phi",
+			"port": 8333,
+			"coins": [{
+				"name": "LUX",
+				"fullName": "Luxcoin"
+			}]
+		},
+		{
+			"name": "skunk",
+			"port": 8433,
+			"coins": [{
+				"name": "ALTCOM",
+				"fullName": "ALT Community"
+			}]
+		},
+		{
+			"name": "xevan",
+			"port": 3739,
+			"coins": [{
+					"name": "BSD",
+					"fullName": "BitSend"
+				},
+				{
+					"name": "XLR",
+					"fullName": "Solaris"
+				},
+				{
+					"name": "NNC",
+					"fullName": "NANU"
+				}
+			]
+		},
+		{
+			"name": "lyra2v2",
+			"port": 4533,
+			"coins": [{
+				"name": "ORE",
+				"fullName": "Galactrum"
+			}]
+		},
+		{
+			"name": "neoscrypt",
+			"port": 14233,
+			"coins": [{
+					"name": "CRC",
+					"fullName": "Crowd Coin"
+				},
+				{
+					"name": "GOA",
+					"fullName": "GoaCoin"
+				}
+			]
+		},
+		{
+			"name": "nist5",
+			"port": 3833,
+			"coins": [{
+				"name": "BWK",
+				"fullName": "Bulwark"
+			}]
+		}
+	]
+}
