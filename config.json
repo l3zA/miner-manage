@@ -3,18 +3,22 @@
 		"minerName": "miner"
 	},
 	"pools": [{
+			"id": 1,
 			"name": "cryptopros",
 			"url": "pool.cryptopros.us"
 		},
 		{
+			"id": 2,
 			"name": "bsod",
 			"url": "pool.bsod.pw"
 		},
 		{
+			"id": 3,
 			"name": "phi",
 			"url": "pool1.phi-phi-pool.net"
 		},
 		{
+			"id": 4,
 			"name": "friends-master",
 			"url": "pool.friends-master.net"
 		}
